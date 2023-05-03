@@ -1,6 +1,6 @@
 let qtd = prompt('Quantas pessoas vão jogar?')
 let pontuação = []
-let jogadores = [] //, prompt('Jogador 2'), prompt('Jogador 3'), prompt('Jogador 4')
+let jogadores = []
 
 for (a = 0; a<qtd; a++){
     jogadores[a] = prompt(`${a+1}° Jogador:`)
@@ -114,9 +114,7 @@ function continuar(){
             x = 0
             k.innerHTML = `${jogadores[0]}`
             p = 0
-            }  
-        // console.log(k)
-        // console.log(jogadores)
+            }
         console.log(x)
     p++
 }
